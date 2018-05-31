@@ -1,4 +1,5 @@
-
+# 一个flask练习项目
+# 目标实现搜素，注册，留言板等功能，加深基础知识
 
 from app import create_app
 
