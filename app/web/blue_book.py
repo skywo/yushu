@@ -21,7 +21,7 @@ def search(q,page):
         if isbn_or_key=="isbn":
          result=YuShuBook.serch_by_isbn(q)
         else:
-         result=YuShuBook.serch_by_keywork(q)
+         result=YuShuBook.serch_by_keywork(q,page)
         return jsonify(result)
     else:
         return jsonify(form.errors)
